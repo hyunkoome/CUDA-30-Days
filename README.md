@@ -34,38 +34,38 @@ python3.10 -m venv cudastudy
 
 ## 🗓️ 30일 커리큘럼
 
-| Day | 커널 이름 | 핵심 내용 | 연동 및 비교 |
-|-----|-----------|-----------|---------------|
-| 01 | vec_add | 벡터 덧셈 | PyTorch + C++ |
-| 02 | dot_product | 내적, reduction | PyTorch + C++ |
-| 03 | matrix_add | 2D 행렬 합 | PyTorch + C++ |
-| 04 | relu | 활성화 함수 | PyTorch |
-| 05 | matrix_transpose | 전치 | memory coalescing |
-| 06 | matmul_basic | naive GEMM | PyTorch |
-| 07 | matmul_sharedmem | tiling | PyTorch + 성능 |
-| 08 | global_avg_pool | GAP | PyTorch 비교 |
-| 09 | batch_norm_forward | 정규화 | ONNX export |
-| 10 | instance_norm | 채널별 정규화 | PyTorch |
-| 11 | group_norm | 그룹 정규화 | TensorRT plugin |
-| 12 | layernorm_forward | LayerNorm FWD | PyTorch |
-| 13 | layernorm_backward | LayerNorm BWD | 성능 튜닝 |
-| 14 | softmax_kernel | softmax | PyTorch |
-| 15 | softmax_2d_kernel | Attention용 | PyTorch |
-| 16 | einsum_qk_attn | QK^T | Attention 연산 |
-| 17 | attention_softmax_fused | fused attention | 효율 비교 |
-| 18 | gelu_kernel | GELU | activation 성능 |
-| 19 | topk_kernel | Top-K | PyTorch |
-| 20 | prefix_sum_kernel | scan | warp-level sum |
-| 21 | warp_shuffle_max | warp max | warp shuffle |
-| 22 | conv2d_basic | naive Conv | PyTorch |
-| 23 | conv2d_shared_tile | tile + shared | PyTorch |
-| 24 | conv2d_unroll | unroll 최적화 | 성능 비교 |
-| 25 | spconv_sparse_gemm | sparse matmul | PyTorch |
-| 26 | spconv_forward | sparse forward | TensorRT |
-| 27 | spconv_backward | grad 구현 | 실습 |
-| 28 | transformer_block | full block | residual 포함 |
-| 29 | flash_attention | FlashAttention | memory opt |
-| 30 | final_review_day | 전체 정리 | 성능 분석 |
+| Day | 커널 이름                                 | 핵심 내용 | 연동 및 비교 |
+|-----|---------------------------------------|-----------|---------------|
+| 01 | [vec_add](./day_01_vac_add/README.md) | 벡터 덧셈 | PyTorch + C++ |
+| 02 | dot_product                           | 내적, reduction | PyTorch + C++ |
+| 03 | matrix_add                            | 2D 행렬 합 | PyTorch + C++ |
+| 04 | relu                                  | 활성화 함수 | PyTorch |
+| 05 | matrix_transpose                      | 전치 | memory coalescing |
+| 06 | matmul_basic                          | naive GEMM | PyTorch |
+| 07 | matmul_sharedmem                      | tiling | PyTorch + 성능 |
+| 08 | global_avg_pool                       | GAP | PyTorch 비교 |
+| 09 | batch_norm_forward                    | 정규화 | ONNX export |
+| 10 | instance_norm                         | 채널별 정규화 | PyTorch |
+| 11 | group_norm                            | 그룹 정규화 | TensorRT plugin |
+| 12 | layernorm_forward                     | LayerNorm FWD | PyTorch |
+| 13 | layernorm_backward                    | LayerNorm BWD | 성능 튜닝 |
+| 14 | softmax_kernel                        | softmax | PyTorch |
+| 15 | softmax_2d_kernel                     | Attention용 | PyTorch |
+| 16 | einsum_qk_attn                        | QK^T | Attention 연산 |
+| 17 | attention_softmax_fused               | fused attention | 효율 비교 |
+| 18 | gelu_kernel                           | GELU | activation 성능 |
+| 19 | topk_kernel                           | Top-K | PyTorch |
+| 20 | prefix_sum_kernel                     | scan | warp-level sum |
+| 21 | warp_shuffle_max                      | warp max | warp shuffle |
+| 22 | conv2d_basic                          | naive Conv | PyTorch |
+| 23 | conv2d_shared_tile                    | tile + shared | PyTorch |
+| 24 | conv2d_unroll                         | unroll 최적화 | 성능 비교 |
+| 25 | spconv_sparse_gemm                    | sparse matmul | PyTorch |
+| 26 | spconv_forward                        | sparse forward | TensorRT |
+| 27 | spconv_backward                       | grad 구현 | 실습 |
+| 28 | transformer_block                     | full block | residual 포함 |
+| 29 | flash_attention                       | FlashAttention | memory opt |
+| 30 | final_review_day                      | 전체 정리 | 성능 분석 |
 
 ---
 
