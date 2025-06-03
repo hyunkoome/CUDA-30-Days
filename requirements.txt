@@ -2,3 +2,4 @@ torch==2.3.0 --index-url https://download.pytorch.org/whl/cu126
 numpy
 ninja
 cmake
+wheel

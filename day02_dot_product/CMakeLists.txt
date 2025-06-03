@@ -32,10 +32,10 @@ include_directories(/usr/local/cuda-12.6/targets/x86_64-linux/include)
 # ─────────────────────────────────────────────
 add_executable(dot_product_all
     test_runner.cu
-    dot_cuda/shared_memory_float_kernel.cu
-    dot_cuda/shared_memory_double_precision_kernel.cu
-    dot_cuda/shared_memory_mixed_precision_kernel.cu
-    dot_cuda/warp_shuffle_kernel.cu
+    dot_cuda_src/shared_memory_float_kernel.cu
+    dot_cuda_src/shared_memory_double_precision_kernel.cu
+    dot_cuda_src/shared_memory_mixed_precision_kernel.cu
+    dot_cuda_src/warp_shuffle_kernel.cu
 )
 
 # 타겟 속성 설정
