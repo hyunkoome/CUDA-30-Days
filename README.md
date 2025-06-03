@@ -104,8 +104,21 @@ cuda-kernel-study/
 
 ## 🧠 Special Thanks
 
-이 실습은 실전 AI 커널 엔지니어링을 목표로 구성되었습니다.  
-다양한 연산들을 최적화하고 직접 비교하며, 실무에 바로 활용할 수 있는 실력을 기릅니다.
-
+- 다양한 연산들을 최적화하고 직접 비교하며, 
+- 실무에 바로 활용할 수 있는 실력을 기르기 위해, 
+- 실전 AI 커널 엔지니어링을 목표로 구성되었음
 ---
+
+## 📄 [라이선스 / License](LICENSE)
+[![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+- 본 프로젝트는 **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** 라이선스를 따릅니다.  
+- 누구나 **비영리 목적**에 한해 자유롭게 사용할 수 있으며, **상업적 이용 시 저작자의 허가**가 필요합니다.  
+- 단, **저작자(김현구)**는 본 자료를 **자유롭게 상업적 목적으로 사용할 수 있습니다.**
+
+This project is licensed under a **Creative Commons Attribution-NonCommercial 4.0 International License**.  
+Non-commercial use and distribution are permitted. **Commercial use requires permission**, except for the original author (**Hyunkoo Kim**), who retains full rights for educational, business, and commercial use.
+
+
+
 
