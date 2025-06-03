@@ -36,7 +36,7 @@ python3.10 -m venv cudastudy
 
 | Day | 커널 이름                                 | 핵심 내용 | 연동 및 비교 |
 |-----|---------------------------------------|-----------|---------------|
-| 01 | [vec_add](./day_01_vac_add/README.md) | 벡터 덧셈 | PyTorch + C++ |
+| 01 | [vec_add](./day01_vec_add/README.md) | 벡터 덧셈 | PyTorch + C++ |
 | 02 | dot_product                           | 내적, reduction | PyTorch + C++ |
 | 03 | matrix_add                            | 2D 행렬 합 | PyTorch + C++ |
 | 04 | relu                                  | 활성화 함수 | PyTorch |
