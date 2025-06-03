@@ -26,6 +26,10 @@
 | C++ | CMake 또는 g++ |
 | 선택사항 | ONNXRuntime, TensorRT, WebGPU 환경 |
 
+# Python 3.10이 설치되어 있다는 전제 하에
+```
+python3.10 -m venv cudastudy
+```
 ---
 
 ## 🗓️ 30일 커리큘럼
