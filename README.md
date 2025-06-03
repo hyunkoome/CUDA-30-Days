@@ -18,17 +18,20 @@
 
 ## 🛠️ 실습 환경
 
-| 구성 | 버전 |
-|------|------|
-| CUDA | 12.6 |
-| PyTorch | 2.x |
-| Python | 3.10+ |
-| C++ | CMake 또는 g++ |
+| 구성 | 버전                               |
+|------|----------------------------------|
+| CUDA | 12.6                             |
+| PyTorch | 2.x+, `여기에서는 2.3.0 (CUDA 12.6 전용)` |
+| Python | 3.10+                            |
+| C++ | CMake 또는 g++                     |
 | 선택사항 | ONNXRuntime, TensorRT, WebGPU 환경 |
 
 # Python 3.10이 설치되어 있다는 전제 하에
 ```
 python3.10 -m venv cudastudy
+source cudastudy/bin/activate   # Windows: cudastudy\\Scripts\\activate
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 ---
 
