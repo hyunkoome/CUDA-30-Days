@@ -33,6 +33,23 @@ source cudastudy/bin/activate   # Windows: cudastudy\\Scripts\\activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+# libtorch 설치 
+PyTorch는 CUDA minor 버전이 달라도 보통 잘 동작합니다.
+CUDA 12.6에서 CUDA 12.1 빌드된 libtorch 사용 → ✔️ 작동 확인됨
+```shell
+wget https://download.pytorch.org/libtorch/cu121/libtorch-cxx11-abi-shared-with-deps-2.1.0%2Bcu121.zip
+unzip libtorch-cxx11-abi-shared-with-deps-2.1.0+cu121.zip -d ~/
+```
+~/libtorch 경로 아래에는 보통 이런 구조가 생김:
+```shell
+~/libtorch/
+├── include/
+├── lib/
+├── share/
+└── ...
+```
+
 ---
 
 ## 🗓️ 30일 커리큘럼
